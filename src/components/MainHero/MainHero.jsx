@@ -23,12 +23,14 @@ const MainHero = () => {
                     <p>   </p><p></p>
                     <p>knack of building application with front and back end operations</p>
                     <a href={resume} className='btn dummy'>Get Resume</a>
+                    <br />
                 </div>
 
             </div>
 
             <div className="right-hero">
                 <img src={myImage} alt="" style={{ width: "250px", height: "250px", borderRadius: 300 / 2, marginRight: "20px" }} />
+                <br />
                 <a href={resume} className='btn dummy2'>Get Resume</a>
             </div>
         </div>
